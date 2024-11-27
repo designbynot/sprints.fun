@@ -7,8 +7,8 @@ import { Slider } from "@/components/ui/slider";
 const ImagePixelationTool = () => {
   const [processedImage, setProcessedImage] = useState(null);
   const [pixelSize, setPixelSize] = useState([20]);
-  const canvasRef = useRef();
-  const fileInputRef = useRef();
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const applyPixelation = (ctx, width, height, pixelHeight) => {
     // Adjust pixel size based on image dimensions
@@ -104,7 +104,9 @@ const ImagePixelationTool = () => {
   };
 
   const triggerFileInput = () => {
-    fileInputRef.current.click();
+    if (fileInputRef.current) {
+      fileInputRef.current.click();
+    }
   };
 
   const downloadImage = () => {

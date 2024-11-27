@@ -10,19 +10,19 @@ const Dashboard = () => {
       <div className="space-y-8">
         <section>
           <h2 className="text-xl font-bold tracking-tighter mb-4">Designs</h2>
-          <div className="border-2 border-dashed border-gray-300 rounded-lg p-4 min-h-[100px]">
+          <div className="border-2 border-gray-300 rounded-lg p-4 min-h-[100px]">
           </div>
         </section>
 
         <section>
           <h2 className="text-xl font-bold tracking-tighter mb-4">Reports</h2>
-          <div className="border-2 border-dashed border-gray-300 rounded-lg p-4 min-h-[100px]">
+          <div className="border-2 border-gray-300 rounded-lg p-4 min-h-[100px]">
           </div>
         </section>
 
         <section>
           <h2 className="text-xl font-bold tracking-tighter mb-4">Code</h2>
-          <div className="border-2 border-dashed border-gray-300 rounded-lg p-4 min-h-[100px]">
+          <div className="border-2 border-gray-300 rounded-lg p-4 min-h-[100px]">
             <Link href="/pixelate" className="block p-3 hover:bg-gray-50 rounded transition-colors cursor-pointer">
               Pixelate Images
             </Link>
