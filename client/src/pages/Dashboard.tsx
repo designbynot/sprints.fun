@@ -11,21 +11,31 @@ const Dashboard = () => {
         <section>
           <h2 className="text-xl font-bold tracking-tighter mb-4">Designs + Sprints</h2>
           <div className="border-2 border-gray-300 rounded-lg p-4 min-h-[100px]">
-            <Link href="/ethereum-design" className="block p-3 hover:bg-gray-50 rounded transition-colors cursor-pointer">
-              ethereum mainnet
-            </Link>
-            <Link href="/anon-design" className="block p-3 hover:bg-gray-50 rounded transition-colors cursor-pointer">
-              $Anon
-            </Link>
+            <div className="space-y-2">
+              <Link href="/ethereum-design">
+                <div className="p-3 hover:bg-gray-50 rounded transition-colors cursor-pointer">
+                  ethereum mainnet
+                </div>
+              </Link>
+              <Link href="/anon-design">
+                <div className="p-3 hover:bg-gray-50 rounded transition-colors cursor-pointer">
+                  $Anon
+                </div>
+              </Link>
+            </div>
           </div>
         </section>
 
         <section>
           <h2 className="text-xl font-bold tracking-tighter mb-4">Code</h2>
           <div className="border-2 border-gray-300 rounded-lg p-4 min-h-[100px]">
-            <Link href="/pixelate" className="block p-3 hover:bg-gray-50 rounded transition-colors cursor-pointer">
-              Pixelate Images
-            </Link>
+            <div className="space-y-2">
+              <Link href="/pixelate">
+                <div className="p-3 hover:bg-gray-50 rounded transition-colors cursor-pointer">
+                  Pixelate Images
+                </div>
+              </Link>
+            </div>
           </div>
         </section>
       </div>
