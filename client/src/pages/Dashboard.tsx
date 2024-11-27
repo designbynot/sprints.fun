@@ -14,7 +14,7 @@ const Dashboard = () => {
             <div className="space-y-2">
               <Link href="/ethereum-design">
                 <div className="p-3 hover:bg-gray-50 rounded transition-colors cursor-pointer">
-                  ETHEREUM MAINNET
+                  Ethereum Mainnet
                 </div>
               </Link>
               <Link href="/anon-design">
