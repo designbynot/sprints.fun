@@ -8,6 +8,7 @@ import { Toaster } from "@/components/ui/toaster";
 import Dashboard from "./pages/Dashboard";
 import PixelateTool from "./pages/PixelateTool";
 import EthereumDesign from "./pages/EthereumDesign";
+import AnonDesign from "./pages/AnonDesign";
 
 function Router() {
   return (
@@ -15,6 +16,7 @@ function Router() {
       <Route path="/" component={Dashboard} />
       <Route path="/pixelate" component={PixelateTool} />
       <Route path="/ethereum-design" component={EthereumDesign} />
+      <Route path="/anon-design" component={AnonDesign} />
       <Route>404 Page Not Found</Route>
     </Switch>
   );
