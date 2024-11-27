@@ -9,7 +9,7 @@ const Dashboard = () => {
       
       <div className="space-y-8">
         <section>
-          <h2 className="text-xl font-bold tracking-tighter mb-4">Designs + Sprints</h2>
+          <h2 className="text-xl font-bold tracking-tighter mb-4">Designs + Reports</h2>
           <div className="p-4 min-h-[100px]">
             <div className="space-y-2">
               <Link href="/ethereum-design">
