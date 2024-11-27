@@ -5,12 +5,12 @@ import { Upload } from "lucide-react";
 import { Slider } from "@/components/ui/slider";
 
 const ImagePixelationTool = () => {
-  const [processedImage, setProcessedImage] = useState(null);
+  const [processedImage, setProcessedImage] = useState<string | null>(null);
   const [pixelSize, setPixelSize] = useState([20]);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const applyPixelation = (ctx, width, height, pixelHeight) => {
+  const applyPixelation = (ctx: CanvasRenderingContext2D, width: number, height: number, pixelHeight: number) => {
     // Adjust pixel size based on image dimensions
     const pixelWidth = pixelHeight;
     
@@ -64,14 +64,17 @@ const ImagePixelationTool = () => {
     ctx.putImageData(imageData, 0, 0);
   };
 
-  const handleImageUpload = async (event) => {
-    const file = event.target.files[0];
+  const handleImageUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
     if (!file) return;
 
     const img = new Image();
     img.onload = () => {
       const canvas = canvasRef.current;
+      if (!canvas) return;
+      
       const ctx = canvas.getContext('2d');
+      if (!ctx) return;
       
       // Set canvas size to match image
       canvas.width = img.width;
@@ -89,13 +92,17 @@ const ImagePixelationTool = () => {
     img.src = URL.createObjectURL(file);
   };
 
-  const handlePixelSizeChange = (value) => {
+  const handlePixelSizeChange = (value: number[]) => {
     setPixelSize(value);
     if (processedImage) {
       const img = new Image();
       img.onload = () => {
         const canvas = canvasRef.current;
+        if (!canvas) return;
+        
         const ctx = canvas.getContext('2d');
+        if (!ctx) return;
+        
         ctx.drawImage(img, 0, 0);
         applyPixelation(ctx, canvas.width, canvas.height, value[0]);
       };
