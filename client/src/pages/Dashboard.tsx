@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const Dashboard = () => {
   return (
     <div className="container mx-auto p-8 max-w-4xl">
-      <img src="SPRINTS.FUN_logo.png" alt="Sprints.Fun" className="mb-12 h-8" />
+      <img src="/images/SPRINTS.FUN_logo.png" alt="Sprints.Fun" className="mb-12 h-8" />
       
       <div className="space-y-8">
         <section>

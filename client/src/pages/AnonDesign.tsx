@@ -17,7 +17,7 @@ const AnonDesign = () => {
         <article className="prose prose-lg max-w-none">
           <h1 className="text-4xl font-bold tracking-tighter mb-8">0002: $ANON</h1>
           
-          <img src="Anon_Qual_1.png" alt="Anon Qual 1" className="w-full rounded-lg mb-8" />
+          <img src="/images/Anon_Qual_1.png" alt="Anon Qual 1" className="w-full rounded-lg mb-8" />
 
           <hr className="my-12" />
 
@@ -55,8 +55,8 @@ const AnonDesign = () => {
 
             <p className="mb-8">The potential in Anon is near equal to the challenge of actually scaling it I imagine.</p>
 
-            <img src="Anon_Qual_3.png" alt="Anon Qual 3" className="w-full rounded-lg mb-8" />
-            <img src="Anon_Qual_2.png" alt="Anon Qual 2" className="w-full rounded-lg" />
+            <img src="/images/Anon_Qual_3.png" alt="Anon Qual 3" className="w-full rounded-lg mb-8" />
+            <img src="/images/Anon_Qual_2.png" alt="Anon Qual 2" className="w-full rounded-lg" />
           </section>
         </article>
       </div>
