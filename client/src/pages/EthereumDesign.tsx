@@ -32,8 +32,6 @@ const EthereumDesign = () => {
             <h2 className="text-2xl font-bold tracking-tighter mb-6">Idea of Ethereum</h2>
             <p className="mb-6">A world computer. For the people, by the people. But bigger and better.</p>
             
-            <img src="/images/ETH_Qual_1.png" alt="ETH Qual 1" className="w-full rounded-lg mb-6" />
-            
             <p className="font-bold mb-4">Mental model: Ethereum is bringing Massive Multiplayer Online Role Playing Games (MMORPGs) to the real world</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>A global, high-stakes, computer game but it's your real life</li>
@@ -48,21 +46,9 @@ const EthereumDesign = () => {
             <h2 className="text-2xl font-bold tracking-tighter mb-6">Style of Ethereum</h2>
             <p className="mb-6">Mainnet is relatively neutral. It's Layer 2s that make opinionated and centralized style decisions.</p>
             
-            <img src="/images/ETH_Qual_2.png" alt="ETH Qual 2" className="w-full rounded-lg mb-6" />
-            
             <p className="mb-6">Ethereum is part science fiction, part real-time software. It should lean into wireframe aesthetics to bridge both worlds and align w its own Layer 2 roadmap (varied design)</p>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-              <img src="/images/ETH_Qual_3.png" alt="ETH Qual 3" className="w-full rounded-lg" />
-              <img src="/images/ETH_Qual_4.png" alt="ETH Qual 4" className="w-full rounded-lg" />
-            </div>
-            
             <p className="mb-6">The wireframe aesthetic also allows for night and dark mode composability.</p>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-              <img src="/images/ETH_Qual_5.png" alt="ETH Qual 5" className="w-full rounded-lg" />
-              <img src="/images/ETH_Qual_6.png" alt="ETH Qual 6" className="w-full rounded-lg" />
-            </div>
           </section>
 
           <hr className="my-12" />
@@ -73,23 +59,11 @@ const EthereumDesign = () => {
             
             <p className="mb-6">Their behaviors are within their own practice and also composable/compounding amongst each other. (something entirely unique to the world computer system)</p>
             
-            <img src="/images/by digital artist A.C.K.gif" alt="By digital artist A.C.K" className="w-full rounded-lg mb-2" />
-            <p className="text-sm text-gray-600 mb-6">By digital artist A.C.K</p>
-            
             <p className="mb-6">Art movements, protocols, culture, and characters are emerging</p>
-            
-            <img src="/images/CryptoPunks by Larva Labs.png" alt="CryptoPunks by Larva Labs" className="w-full rounded-lg mb-2" />
-            <p className="text-sm text-gray-600 mb-6">CryptoPunks by Larva Labs (acq. by Yuga Labs)</p>
             
             <p className="mb-6">Digital commodities merging cryptography with digital art are exploding</p>
             
-            <img src="/images/Base Layer 2 daily transactions.jpeg" alt="Base Layer 2 daily transactions" className="w-full rounded-lg mb-2" />
-            <p className="text-sm text-gray-600 mb-6">Base Layer 2 (blockchain) daily transactions</p>
-            
             <p className="mb-6">Software developers are building their own opinionated infrastructure</p>
-            
-            <img src="/images/Seed Club acquision.jpeg" alt="Seed Club acquisition" className="w-full rounded-lg mb-2" />
-            <p className="text-sm text-gray-600 mb-6">Seed Club (private venture) acquisition of Build</p>
             
             <p className="mb-6">Private entrepreneurs are scaling their own ventures</p>
           </section>
@@ -99,8 +73,6 @@ const EthereumDesign = () => {
           <section>
             <h2 className="text-2xl font-bold tracking-tighter mb-6">Symbol of Ethereum</h2>
             <p className="mb-6">The symbol of Ethereum is the Ethereum Crystal.</p>
-            
-            <img src="/images/ETH Crystal.png" alt="ETH Crystal" className="w-full rounded-lg mb-6" />
             
             <p className="mb-6">There is no need to fix something that already works. This qual report is not about changing the icon of Ethereum. Instead it provides a simpler framework from which decentralized parties can align and scale on the world computer system.</p>
           </section>
