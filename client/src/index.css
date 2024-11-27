@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: local('Helvetica Bold'),
+       local('Helvetica-Bold');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  font-family: 'Helvetica', system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.07em;
+}
+
+.border-dashed {
+  border-style: dashed;
+  border-width: 2px;
+}
