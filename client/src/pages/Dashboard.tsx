@@ -10,11 +10,11 @@ const Dashboard = () => {
       <div className="space-y-8">
         <section>
           <h2 className="text-xl font-bold tracking-tighter mb-4">Designs + Sprints</h2>
-          <div className="border-2 border-gray-300 rounded-lg p-4 min-h-[100px]">
+          <div className="p-4 min-h-[100px]">
             <div className="space-y-2">
               <Link href="/ethereum-design">
                 <div className="p-3 hover:bg-gray-50 rounded transition-colors cursor-pointer">
-                  ethereum mainnet
+                  ETHEREUM MAINNET
                 </div>
               </Link>
               <Link href="/anon-design">
@@ -28,7 +28,7 @@ const Dashboard = () => {
 
         <section>
           <h2 className="text-xl font-bold tracking-tighter mb-4">Code</h2>
-          <div className="border-2 border-gray-300 rounded-lg p-4 min-h-[100px]">
+          <div className="p-4 min-h-[100px]">
             <div className="space-y-2">
               <Link href="/pixelate">
                 <div className="p-3 hover:bg-gray-50 rounded transition-colors cursor-pointer">
